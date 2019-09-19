@@ -1,0 +1,15 @@
+Pilares de PPO;
+
+Abstraccion: Es tomar los atributos comunes a una clase de objetos(existen diferentes grados de abstraccion).
+
+Encapsulacion: Agrupar datos con los metodos que los operan, encapsulados todos en un contenedor (clase).
+               Aqui se habla de ocultamiento de la informaciòn, solo vemos los metodos que son utiles a los fines buscados.
+               Las clases tienen sus metodos internos y tambien metodos privados.
+
+Herencia: Clase Base(Clases padres) y Clases Derivadas(Clases hijas que hederan).
+          La herencia consiste en hacer sub clases de una clase mas generica, por 
+          lo que comparten los atributos y metodos de la clase superior.
+          Lo unico que no se hereda son los constructores.
+          Los miembros privados(private) se heredan pero no pueden ser accedidos desde las clases hijas.
+          Por el contrario, los miembros prtected si pueden ser utilizados por las clases hijas.
+
