@@ -1,0 +1,14 @@
+INSERT INTO Clientes (Nombre, Apellido, DNI, fecha_nacimiento) VALUES ('Juan','Perez', '12345678', '2000-12-12');
+INSERT INTO Clientes (Nombre, Apellido, DNI, fecha_nacimiento) VALUES ('Ramona','Juarez', '11122255','2002-02-02');
+INSERT INTO Clientes (Nombre, Apellido, DNI, fecha_nacimiento) VALUES ('Pedro','Picapiedra', '0000001','1850-06-30');
+
+SELECT * FROM Clientes;
+
+SELECT * FROM Clientes WHERE Apellido = 'Juarez'; 
+
+DELETE FROM Clientes WHERE Apellido = 'Juarez' AND id <> 3;
+
+DELETE FROM Clientes;
+
+UPDATE Clientes SET Apellido = 'Gomez' WHERE ID = 16;
+
